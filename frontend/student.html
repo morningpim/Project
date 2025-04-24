@@ -36,7 +36,7 @@
     }
 
     .header-text {
-      font-size: 13px;
+      font-size: 16px;
       white-space: nowrap;
     }
 
@@ -52,6 +52,7 @@
       text-decoration: none;
     }
 
+    /* Navbar */
     .navbar-wrapper {
       display: flex;
       justify-content: center;
@@ -59,7 +60,7 @@
       z-index: 1;
       margin-top: -10px;
     }
-
+    
     .navbar {
       background-color: white;
       display: flex;
@@ -71,17 +72,16 @@
       width: fit-content;
       max-width: 100%;
     }
-
+    
     .navbar a {
       text-decoration: none;
       color: black;
-      padding: 18px 18px;
+      padding: 18px;
+      font-size: 14px;
       display: inline-block;
-      font-size: 13px;
       position: relative;
-      white-space: nowrap;
     }
-
+    
     .navbar a.active span::after {
       content: '';
       position: absolute;
@@ -146,7 +146,7 @@
 <div class="main-container">
         <div class="header">
           <div class="logo-area">
-            <img src="logo.png" alt="โลโก้">
+            <img src="image/logo.png" alt="โลโก้">
             <div class="header-text">ระบบการจัดตารางสอนออนไลน์โดยอัลกอริธึมการจัดตารางที่เหมาะสม</div>
           </div>
           <div class="top-right-links">
@@ -156,13 +156,13 @@
 </div>
 
 <div class="navbar-wrapper">
-    <div class="navbar">
-      <a href="#" class="active">หน้าหลัก</a>
-      <a href="pre.html" class="active">วิชาที่ต้องสอนล่วงหน้า</a>
-      <a href="teacher.html" class="active">ข้อมูลอาจารย์</a>
-      <a href="room.html" class="active">ห้องเรียน</a>
-      <a href="student.html" class="active">กลุ่มเรียนของนักศึกษา</a>
-    </div>
+  <div class="navbar">
+    <a href="index.html" class="active">หน้าหลัก</a>
+    <a href="pre.html" class="active">วิชาที่ต้องสอนล่วงหน้า</a>
+    <a href="teacher.html" class="active">ข้อมูลอาจารย์</a>
+    <a href="room.html" class="active">ห้องเรียน</a>
+    <a href="student.html" class="active">กลุ่มเรียนของนักศึกษา</a>
+  </div>
 </div>
 
 <!-- Main Content -->
